@@ -1,16 +1,16 @@
 export const GlobalStyles = {
   colors: {
-    primary50: '#1B1B1B', // Background color
-    primary100: '#2C2C2C', // Secondary background color
-    primary200: '#800080', // Primary magenta for buttons and accents
-    primary400: '#A040A0', // Slightly lighter magenta for hover states
-    primary500: '#FF6AC1', // Pinkish magenta for highlights
-    primary700: '#990099', // Darker magenta for active states
-    primary800: '#AA00AA', // Vibrant magenta for special accents
-    accent500: '#00BFFF', // Accent color for links and special elements
-    error50: '#870000', // Dark red for subtle error messages
-    error500: '#D00000', // Bright red for critical errors
-    gray500: '#606060', // Medium dark gray for secondary text
-    gray700: '#404040', // Dark gray for borders or tertiary text
+    primary50: '#e4d9fd',
+    primary100: '#c6affc',
+    primary200: '#a281f0',
+    primary400: '#5721d4',
+    primary500: '#8A2BE2',
+    primary700: '#1c1c1c',
+    primary800: '#2a2829',
+    accent500: '#f7bc0c',
+    error50: '#fcc4e4',
+    error500: '#9b095c',
+    gray500: '#39324a',
+    gray700: '#221c30',
   },
 };
