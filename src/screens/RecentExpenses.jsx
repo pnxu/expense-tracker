@@ -36,12 +36,13 @@ function RecentExpenses() {
     return <LoadingOverlay />;
   }
 
-  const recentExpenses = expensesCtx.expenses.filter((expense) => {
-    const today = new Date();
-    const date7DaysAgo = getDateMinusDays(today, 7);
-
-    return expense.date >= date7DaysAgo && expense.date <= today;
-  });
+  const recentExpenses = expensesCtx.expenses
+    .filter((expense) => {
+      const today = new Date();
+      const date7DaysAgo = getDateMinusDays(today, 7);
+      return expense.date >= date7DaysAgo && expense.date <= today;
+    })
+    .sort((a, b) => b.date - a.date);
 
   return (
     <ExpensesOutput

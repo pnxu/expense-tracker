@@ -4,9 +4,14 @@ import { ExpensesContext } from '../store/expenses.context';
 
 function AllExpenses() {
   const expensesCtx = useContext(ExpensesContext);
+
+  const sortedExpenses = [...expensesCtx.expenses].sort(
+    (a, b) => b.date - a.date,
+  );
+
   return (
     <ExpensesOutput
-      expenses={expensesCtx.expenses}
+      expenses={sortedExpenses}
       expensesPeriod="Total"
       fallbackText="No registered expense found!"
     />
