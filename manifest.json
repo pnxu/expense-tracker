@@ -1,0 +1,9 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "expense-tracker",
+  "short_name": "expense-tracker",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait"
+}

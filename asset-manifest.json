@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/expense-tracker/static/js/main.3fd1a78b.js",
+    "static/js/478.426119f3.js": "/expense-tracker/static/js/478.426119f3.js",
+    "static/media/Ionicons.ttf": "/expense-tracker/static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
+    "favicon.ico": "/expense-tracker/favicon.ico",
+    "index.html": "/expense-tracker/index.html",
+    "favicon-32.png": "/expense-tracker/favicon-32.png",
+    "favicon-16.png": "/expense-tracker/favicon-16.png",
+    "manifest.json": "/expense-tracker/manifest.json",
+    "serve.json": "/expense-tracker/serve.json",
+    "main.3fd1a78b.js.map": "/expense-tracker/static/js/main.3fd1a78b.js.map",
+    "478.426119f3.js.map": "/expense-tracker/static/js/478.426119f3.js.map"
+  },
+  "entrypoints": [
+    "static/js/478.426119f3.js",
+    "static/js/main.3fd1a78b.js"
+  ]
+}
