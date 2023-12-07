@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   },
   rowInput: {
     flex: 1,
+    margin: 3,
   },
   errorText: {
     textAlign: 'center',
@@ -33,6 +34,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    marginTop: 14,
   },
   button: {
     minWidth: 120,
