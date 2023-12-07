@@ -1,7 +1,8 @@
 {
-  "name": "expence-tracker",
+  "name": "expense-tracker",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://pnxu.github.io/expense-tracker/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
